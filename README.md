@@ -51,17 +51,17 @@ On Linux/macOS:
 typing-test.exe
 ```
 
-##🧩 Code Logic
-The core logic is encapsulated in the `TypingTest` class:
+## 🧩 Code Logic
+### The core logic is encapsulated in the `TypingTest` class:
 
-Initialization: Loads the reference text into a vector.
+1. Initialization: Loads the reference text into a vector.
 
-Game Loop: * Captures user input word by word.
+2. Game Loop: * Captures user input word by word.
 
-Compares input against the reference.
+- Compares input against the reference.
 
-Clears the screen and redraws the text with color coding (ANSI codes) to show progress.
+- Clears the screen and redraws the text with color coding (ANSI codes) to show progress.
 
-Calculation: * WPM: `(Words Typed / Time Elapsed in Minutes)`
+3. Calculation: * WPM: `(Words Typed / Time Elapsed in Minutes)`
 
-Accuracy: `((Total Words - Errors) / Total Words) * 100`
+- Accuracy: `((Total Words - Errors) / Total Words) * 100`
